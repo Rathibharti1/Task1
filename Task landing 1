@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(gymph.jpg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(1,1,34);
+        color: aliceblue;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+    }
+    ul li a:hover{
+        cursor: red;
+    }
+    ul li a {
+        text-decoration: none;
+        margin-inline: 22px;
+        color: white;
+        font-size: 22px;
+    }
+
+    .imge img{
+        width: 100px;
+        height: 75px;
+        border: 1px solid black;
+        border-radius: 5%;
+    }
+    .hi {
+        width: 50%;
+        height: 100px;
+        background-color: transparent;
+        display: flex;
+        position: fixed;
+        margin-top: 200px;
+        margin-left: 180px;
+        color: white;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .main {
+        width: 500px;
+        height: 400px;
+        background-color:transparent;
+        display: flex;
+        position: fixed;
+        margin-top: 300px;
+        margin-left: 150px;
+        border: 2px solid black;
+        border-radius: 10%;
+        box-shadow: 2px 3px 4px 2px;
+    }
+    .connect{
+        margin-top: 50px;
+    }
+    .connect input{
+    width: 90%;
+    height: 22px;
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;}
+    
+    .connect button{
+    width: 120px;
+    height: 36px;
+    background-color: white;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    color:black;
+    margin-left: 200px;
+}
+
+ 
+  
+</style>
+<body>
+    <div>
+        <nav>
+            <div class="imge">
+                <img src="gymlogo.png">
+            </div>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">CHALLENGES</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">JOIN</a></li>
+                <li><a href="">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hi">
+        <h1>Take First Step <br> Change Yourself</h1>
+    </div>
+    <div class="main">
+        <div class="connect">
+            <input type="text" placeholder="Enter Your Name" id="name">
+            <input type="email" placeholder="Enter Your email" id="name">
+            <input type="password" placeholder="Enter Your password" id="name">
+            <button id="connect">Connect</button>
+        </div>
+     
+    
+    </div>
+
+   
+    
+</body>
+</html>
